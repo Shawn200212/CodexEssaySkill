@@ -1,0 +1,16 @@
+{
+  "captured_at": "2026-07-31",
+  "reference_repositories": [
+    {
+      "repository": "Shawn200212/ClaudeEssaySkill",
+      "commit": "cad8e14c07f5355e981d5e033bb6ad179f1b96d7",
+      "role": "public method, aggregate measurements, and demonstration baseline"
+    },
+    {
+      "repository": "Shawn200212/ClaudeEssaySkill-core",
+      "commit": "f3665eb170f0b45d8433716951f4559a343e4569",
+      "role": "owner-authorized private implementation baseline"
+    }
+  ],
+  "derivation_boundary": "CodexEssaySkill reuses the private/public publication pattern and GAN-shaped evaluation idea, but defines a new twelve-dimension rubric, safety contract, routing profile, scripts, and forward tests."
+}

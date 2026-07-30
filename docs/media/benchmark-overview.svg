@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">Publication-Craft-12 v3 aggregate benchmark scores</title>
+  <desc id="desc">CodexEssaySkill scored 99.8906, write-chi-paper scored 98.6719, and ClaudeEssaySkill scored 96.5781 out of 100. Codex led Claude by 3.3125 points, above a predeclared two-point margin. All candidates had zero confirmed hard failures.</desc>
+  <rect width="1200" height="650" fill="#f6f3ec"/>
+  <style>
+    .title { font: 700 32px system-ui, sans-serif; fill: #18231e; }
+    .sub { font: 16px system-ui, sans-serif; fill: #52615a; }
+    .label { font: 650 19px system-ui, sans-serif; fill: #18231e; }
+    .score { font: 700 20px ui-monospace, monospace; fill: #18231e; }
+    .axis { font: 13px system-ui, sans-serif; fill: #6e7772; }
+    .cardTitle { font: 700 19px system-ui, sans-serif; fill: #173f31; }
+    .cardBig { font: 800 34px system-ui, sans-serif; fill: #173f31; }
+    .cardText { font: 15px system-ui, sans-serif; fill: #3c4c44; }
+  </style>
+  <text x="70" y="68" class="title">Publication-Craft-12 v3 · frozen forward test</text>
+  <text x="70" y="98" class="sub">8 fresh cases · 24 anonymized responses · 2 blind judges · 12 dimensions · score axis starts at 0</text>
+
+  <line x1="330" y1="150" x2="1030" y2="150" stroke="#abb5af" stroke-width="1"/>
+  <line x1="330" y1="145" x2="330" y2="425" stroke="#abb5af" stroke-width="1"/>
+  <line x1="505" y1="145" x2="505" y2="425" stroke="#d4d9d6" stroke-width="1"/>
+  <line x1="680" y1="145" x2="680" y2="425" stroke="#d4d9d6" stroke-width="1"/>
+  <line x1="855" y1="145" x2="855" y2="425" stroke="#d4d9d6" stroke-width="1"/>
+  <line x1="1030" y1="145" x2="1030" y2="425" stroke="#abb5af" stroke-width="1"/>
+  <text x="330" y="138" text-anchor="middle" class="axis">0</text>
+  <text x="505" y="138" text-anchor="middle" class="axis">25</text>
+  <text x="680" y="138" text-anchor="middle" class="axis">50</text>
+  <text x="855" y="138" text-anchor="middle" class="axis">75</text>
+  <text x="1030" y="138" text-anchor="middle" class="axis">100</text>
+
+  <text x="70" y="210" class="label">CodexEssaySkill 1.2</text>
+  <rect x="330" y="177" width="699.234" height="48" rx="7" fill="#2b6c53"/>
+  <text x="1050" y="209" class="score">99.8906</text>
+
+  <text x="70" y="300" class="label">$write-chi-paper</text>
+  <rect x="330" y="267" width="690.703" height="48" rx="7" fill="#508a70"/>
+  <text x="1050" y="299" class="score">98.6719</text>
+
+  <text x="70" y="390" class="label">ClaudeEssaySkill</text>
+  <rect x="330" y="357" width="676.047" height="48" rx="7" fill="#9a7b52"/>
+  <text x="1050" y="389" class="score">96.5781</text>
+
+  <rect x="70" y="475" width="500" height="120" rx="12" fill="#e3eee8" stroke="#a8c4b5"/>
+  <text x="95" y="508" class="cardTitle">Predeclared comparison</text>
+  <text x="95" y="552" class="cardBig">+3.3125 points</text>
+  <text x="95" y="579" class="cardText">Codex − Claude; required margin: +2.0</text>
+
+  <rect x="600" y="475" width="530" height="120" rx="12" fill="#f1eadf" stroke="#cdbb9f"/>
+  <text x="625" y="508" class="cardTitle">Integrity result</text>
+  <text x="625" y="552" class="cardBig">0 confirmed hard failures</text>
+  <text x="625" y="579" class="cardText">for every condition; no adjudication required</text>
+
+  <text x="70" y="628" class="axis">Bounded claim only: higher on this frozen benchmark; not universal quality, acceptance, truth, or authorship.</text>
+</svg>

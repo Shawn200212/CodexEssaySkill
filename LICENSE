@@ -1,0 +1,12 @@
+Copyright (c) 2026 the CodexEssaySkill author. All rights reserved.
+
+The CodexEssaySkill source (SKILL.md, reference documents, scripts, private cases, and hidden
+evaluation manifests) is NOT covered by an open-source license and is distributed only by
+invitation through the private CodexEssaySkill-core repository. Open an issue on this repository
+describing your intended use to request access.
+
+Aggregate measurements and the public rubric in `data/` are released separately under CC BY 4.0;
+see LICENSE-DATA.
+
+No permission is granted to reconstruct, redistribute, republish under another name, or incorporate
+the private skill source into a product without written permission from the author.

@@ -1,0 +1,28 @@
+name: Private-core access request
+description: Request access to the private CodexEssaySkill-core repository.
+title: "[Access] "
+labels:
+  - access-request
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The public repository is the evaluation and demonstration record. The installable skill is
+        private and access is granted by the owner. Do not include an unpublished manuscript,
+        participant data, credentials, or other sensitive material in this issue.
+  - type: textarea
+    id: intended-use
+    attributes:
+      label: Intended research-writing use
+      description: Describe the manuscript domain, venue family, and the tasks for which you want to use the skill.
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Terms
+      options:
+        - label: I understand that the private source is all-rights-reserved and may not be redistributed.
+          required: true
+        - label: I will not upload confidential manuscripts or participant data to this public issue.
+          required: true

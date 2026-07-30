@@ -1,0 +1,21 @@
+{
+  "fixture": "synthetic immersive-AI paragraph; not study data",
+  "instrument": "CodexEssaySkill observable prose audit",
+  "before": {
+    "words": 79,
+    "empty_value": 2,
+    "vague_cluster": 1,
+    "claim_force_proof": 1,
+    "sentence_words_cv": 0.185
+  },
+  "after": {
+    "words": 261,
+    "empty_value": 0,
+    "vague_cluster": 0,
+    "claim_force_proof": 1,
+    "claim_force_universal": 1,
+    "sentence_words_cv": 0.401
+  },
+  "authorship_inference": "NOT_MEASURED_AND_NOT_INFERABLE",
+  "interpretation": "The revision removed generic value and vague clusters. Remaining claim-force flags are passage locators and include bounded false positives; they require human interpretation."
+}

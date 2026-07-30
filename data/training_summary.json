@@ -1,0 +1,83 @@
+{
+  "version": "1.2.0",
+  "date": "2026-07-31",
+  "kind": "GAN-shaped instruction and routing simulation; not neural fine-tuning",
+  "paper_cases": {
+    "train": 416,
+    "validation": 104
+  },
+  "deterministic_rounds": [
+    {
+      "round": 1,
+      "generations": 91,
+      "selected_generation": 75,
+      "status": "CALIBRATION_ONLY",
+      "validation_proxy_before": 0.619030,
+      "validation_proxy_after": 0.773688
+    },
+    {
+      "round": 2,
+      "generations": 107,
+      "selected_generation": 91,
+      "status": "REJECTED_WORST_FAMILY_REGRESSION",
+      "balanced_validation_before": 0.653328,
+      "balanced_validation_after": 0.658141,
+      "worst_family_before": 0.409951,
+      "worst_family_after": 0.404001
+    },
+    {
+      "round": 3,
+      "generations": 82,
+      "selected_generation": 62,
+      "status": "SELECTED_FOR_SEMANTIC_CALIBRATION",
+      "validation_proxy_before": 0.619865,
+      "validation_proxy_after": 0.643220,
+      "worst_family_before": 0.451373,
+      "worst_family_after": 0.452276,
+      "hard_failures": 0
+    }
+  ],
+  "semantic_calibration": [
+    {
+      "candidate": "CodexEssaySkill 1.0.0",
+      "cases": 8,
+      "codex": 99.0313,
+      "claude": 98.9531,
+      "difference_points": 0.0782,
+      "status": "NO_PRACTICAL_SUPERIORITY_ESTABLISHED"
+    },
+    {
+      "candidate": "CodexEssaySkill 1.1.0",
+      "cases": 6,
+      "codex": 98.0417,
+      "claude": 97.4792,
+      "difference_points": 0.5625,
+      "status": "NO_PRACTICAL_SUPERIORITY_ESTABLISHED"
+    }
+  ],
+  "final_semantic_holdout": {
+    "benchmark": "Publication-Craft-12 v3",
+    "candidate": "CodexEssaySkill 1.2.0",
+    "candidate_skill_tree_sha256": "6f7805f16107ec0a24f3f7512c42fb914f500c65e7e39feeba6141df08bdbdb0",
+    "cases": 8,
+    "conditions": 3,
+    "generator_runs_per_condition": 1,
+    "blind_judges": 2,
+    "scores_0_100": {
+      "codex_essay_skill": 99.8906,
+      "write_chi_paper": 98.6719,
+      "claude_essay_skill": 96.5781
+    },
+    "codex_minus_claude_points": 3.3125,
+    "predeclared_margin_points": 2.0,
+    "comparative_claim": "HIGHER_ON_FROZEN_BENCHMARK",
+    "confirmed_hard_failure_cases": {
+      "codex_essay_skill": 0,
+      "write_chi_paper": 0,
+      "claude_essay_skill": 0
+    },
+    "single_judge_hard_failure_flags": 0,
+    "judge_mean_absolute_dimension_difference_0_4": 0.0903
+  },
+  "authorship_percentage": "NOT_MEASURED_AND_NOT_INFERABLE"
+}

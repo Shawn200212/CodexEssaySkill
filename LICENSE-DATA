@@ -1,0 +1,8 @@
+The aggregate measurements and rubric in `data/` are released under the Creative Commons
+Attribution 4.0 International license (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/
+
+These files contain synthetic-benchmark definitions and aggregate measurements. They do not contain
+the private skill source, hidden issue manifests, user manuscripts, or reproduced paper full text.
+
+If you use them, cite this repository.

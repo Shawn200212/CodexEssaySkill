@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: "CodexEssaySkill: evidence-constrained academic writing with adversarial skill evaluation"
+message: "If you use the public rubric or aggregate measurements, please cite this repository."
+type: software
+version: 1.2.0
+date-released: 2026-07-31
+repository-code: "https://github.com/Shawn200212/CodexEssaySkill"
+url: "https://github.com/Shawn200212/CodexEssaySkill"
+authors:
+  - name: "Shawn200212"
+abstract: >-
+  A public demonstration and evaluation record for a private Codex academic-writing skill covering
+  ACM CHI and venue-general conference manuscripts. The evaluation emphasizes research architecture,
+  claim-evidence traceability, epistemic calibration, paradigm and construct fidelity, units and
+  comparisons, preservation of nulls and harms, human-AI labor, author voice, provenance, and current
+  venue compliance.
+keywords:
+  - academic writing
+  - ACM CHI
+  - HCI
+  - adversarial evaluation
+  - agent skills
+license: CC-BY-4.0

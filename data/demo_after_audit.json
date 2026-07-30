@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "instrument": "CodexEssaySkill observable prose audit",
+  "instrument_state": "COMPLETE",
+  "authorship_inference": "NOT_MEASURED_AND_NOT_INFERABLE",
+  "metrics": {
+    "words": 261,
+    "paragraphs": 3,
+    "sentences": 12,
+    "sentence_words_mean": 21.75,
+    "sentence_words_cv": 0.401,
+    "citation_markers": 0,
+    "number_tokens": 6,
+    "sections": [
+      "Document"
+    ]
+  },
+  "finding_counts": {
+    "claim_force_proof": 1,
+    "claim_force_universal": 1
+  },
+  "findings_per_1k_words": {
+    "claim_force_proof": 3.831,
+    "claim_force_universal": 3.831
+  },
+  "findings": [
+    {
+      "kind": "claim_force_proof",
+      "paragraph": 1,
+      "section": "Document",
+      "detail": "review 1 proof force marker(s) against evidence",
+      "excerpt": "The adaptive condition did not establish that an AI director increased immersion. Across the six teams, the post-session median was 5.7/7 with adaptive direction and 5.4/7 with static pacing, but the available packet provides neither an uncertainty estimate nor an inferential analysis at the team/session level. The comparison is further bounded by two discomfort-related early exits that were omitted from the paired r"
+    },
+    {
+      "kind": "claim_force_universal",
+      "paragraph": 3,
+      "section": "Document",
+      "detail": "review 1 universal force marker(s) against evidence",
+      "excerpt": "These findings motivate author-constrained improvisation as the object of design: an adaptive director should help a group recover stalled narrative motion without silently taking authorship away from it. A next study should preregister the team/session-level immersion contrast, retain all assigned sessions in the primary analysis with a stated missing-data rule, report discomfort as an outcome, and manipulate the vi"
+    }
+  ],
+  "notes": [
+    "Deterministic indicators locate passages for human review; they do not identify AI authorship.",
+    "No automatic indicator establishes contribution quality, construct validity, or submission readiness."
+  ]
+}

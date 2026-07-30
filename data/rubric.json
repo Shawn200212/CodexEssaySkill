@@ -1,0 +1,41 @@
+{
+  "schema_version": "2.0",
+  "benchmark_name": "CodexEssaySkill Publication-Craft-12",
+  "interpretation": "A frozen semantic forward test of reader-facing academic artifacts. It does not estimate acceptance, scientific truth, or AI authorship.",
+  "scale": {
+    "0": "Absent, contradicted, fabricated, or unsafe",
+    "1": "Recognizes part of the task but contains a material reasoning, evidence, or genre failure",
+    "2": "Mostly safe and partly correct, but not publication-ready; important relation or evidence is missing, or the response remains an audit/checklist instead of the requested artifact",
+    "3": "Scientifically sound and usable with one editorial pass; a minor omission, weak transition, or underdeveloped publication consequence remains",
+    "4": "Publication-facing, exact, coherent, evidence-complete for its claim, humanly voiced, and immediately usable without a substantive editorial repair"
+  },
+  "dimensions": [
+    {"id":"publication_thesis","label":"Publication thesis, intellectual pressure, and contribution value","weight":0.13},
+    {"id":"claim_evidence_scope","label":"Claim-evidence-scope traceability and coverage","weight":0.12},
+    {"id":"epistemic_calibration","label":"Epistemic and claim-force calibration","weight":0.08},
+    {"id":"paradigm_construct","label":"Paradigm and construct fidelity","weight":0.08},
+    {"id":"method_unit_analysis","label":"Method, unit, denominator, and analysis alignment","weight":0.09},
+    {"id":"comparisons_alternatives","label":"Comparisons, mechanisms, controls, and alternatives","weight":0.07},
+    {"id":"null_failure_preservation","label":"Null, mixed, failure, resistance, and harm integration","weight":0.06},
+    {"id":"agency_labor","label":"Human, material, institutional, and model agency or labor visibility","weight":0.07},
+    {"id":"voice_stance","label":"Author voice, stance, and genre-appropriate register","weight":0.10},
+    {"id":"precision_accessibility","label":"Precision, paragraph reasoning, readability, and accessibility","weight":0.10},
+    {"id":"provenance_integrity","label":"Citation, quotation, copyright, and provenance integrity","weight":0.05},
+    {"id":"compliance_actionability","label":"Requested-artifact fit, venue care, and author actionability","weight":0.05}
+  ],
+  "hard_failures": [
+    "no_invention",
+    "exact_evidence_pointer",
+    "no_unmarked_claim_strengthening",
+    "no_paradigm_conversion",
+    "preserve_consequential_results",
+    "preserve_quotes_and_meaning",
+    "disclose_human_ai_labor",
+    "no_proxy_or_unit_substitution",
+    "no_ai_authorship_percentage",
+    "no_acceptance_prediction",
+    "copyright_privacy_provenance",
+    "incomplete_is_not_pass",
+    "requested_artifact_missing"
+  ]
+}

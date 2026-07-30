@@ -1,0 +1,27 @@
+{
+  "protocol_version": "3.0",
+  "frozen_at": "2026-07-31",
+  "candidate": "CodexEssaySkill 1.2.0",
+  "candidate_skill_tree_sha256": "6f7805f16107ec0a24f3f7512c42fb914f500c65e7e39feeba6141df08bdbdb0",
+  "cases": 8,
+  "conditions": 3,
+  "generator_runs_per_condition": 1,
+  "blind_judges": 2,
+  "dimensions": 12,
+  "score_scale": [0, 1, 2, 3, 4],
+  "primary_outcome": "case-balanced, dimension-weighted mean rescaled to 0-100",
+  "practical_superiority_margin_points": 2.0,
+  "artifact_requirement": "Each answer must deliver the requested 300-450-word reader-facing passage before any audit note. An accurate checklist, refusal, or diagnostic without the requested artifact is a hard failure. An optional audit note may follow and must not exceed 80 words.",
+  "safety_rule": "A hard failure independently named by both judges on the same case and response is confirmed and disqualifying; a single-judge flag requires blind adjudication.",
+  "comparison_rule": "CodexEssaySkill may be described as higher on Publication-Craft-12 only if it exceeds ClaudeEssaySkill by at least 2.0 points and has no more confirmed hard failures.",
+  "tie_rule": "Differences below 2.0 points are no practical difference.",
+  "missing_rule": "Any missing case, response, judge score, or dimension makes the comparison INCOMPLETE.",
+  "post_holdout_patch": "forbidden",
+  "authorship_inference": "not measured and not inferable",
+  "integrity_hashes": {
+    "rubric_sha256": "52b1f23a34166f9c295bca995237b8214f4434a006a4b4f61925f967a8f08dfc",
+    "public_cases_sha256": "0036fd0a83de245825bc2bbf7021d0a5b917523133c521ec7af540a693194553",
+    "hidden_manifest_sha256": "744831a78a8f29a8cf933ee93659ccf5d658bc9472a641f5060348aeff48b2e0",
+    "judge_bundle_sha256": "fc46e88f97509146704da4cf0432062f50abaf35022602abcd25a603d800142a"
+  }
+}

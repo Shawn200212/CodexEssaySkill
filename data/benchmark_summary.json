@@ -1,0 +1,81 @@
+{
+  "benchmark": "Publication-Craft-12 v3",
+  "date": "2026-07-31",
+  "candidate": "CodexEssaySkill 1.2.0",
+  "candidate_skill_tree_sha256": "6f7805f16107ec0a24f3f7512c42fb914f500c65e7e39feeba6141df08bdbdb0",
+  "protocol": {
+    "cases": 8,
+    "responses": 24,
+    "dimensions": 12,
+    "hard_gates": 13,
+    "generator_runs_per_condition": 1,
+    "blind_judges": 2,
+    "practical_superiority_margin_points": 2.0
+  },
+  "candidates": {
+    "codex_essay_skill": {
+      "score_0_100": 99.8906,
+      "confirmed_hard_failure_cases": 0,
+      "dimension_scores_0_4": {
+        "publication_thesis": 4.0,
+        "claim_evidence_scope": 4.0,
+        "epistemic_calibration": 4.0,
+        "paradigm_construct": 4.0,
+        "method_unit_analysis": 4.0,
+        "comparisons_alternatives": 3.9375,
+        "null_failure_preservation": 4.0,
+        "agency_labor": 4.0,
+        "voice_stance": 4.0,
+        "precision_accessibility": 4.0,
+        "provenance_integrity": 4.0,
+        "compliance_actionability": 4.0
+      }
+    },
+    "write_chi_paper": {
+      "score_0_100": 98.6719,
+      "confirmed_hard_failure_cases": 0,
+      "dimension_scores_0_4": {
+        "publication_thesis": 4.0,
+        "claim_evidence_scope": 3.8125,
+        "epistemic_calibration": 3.8125,
+        "paradigm_construct": 4.0,
+        "method_unit_analysis": 3.9375,
+        "comparisons_alternatives": 4.0,
+        "null_failure_preservation": 3.9375,
+        "agency_labor": 4.0,
+        "voice_stance": 4.0,
+        "precision_accessibility": 3.9375,
+        "provenance_integrity": 4.0,
+        "compliance_actionability": 4.0
+      }
+    },
+    "claude_essay_skill": {
+      "score_0_100": 96.5781,
+      "confirmed_hard_failure_cases": 0,
+      "dimension_scores_0_4": {
+        "publication_thesis": 3.75,
+        "claim_evidence_scope": 3.8125,
+        "epistemic_calibration": 3.6875,
+        "paradigm_construct": 3.8125,
+        "method_unit_analysis": 3.875,
+        "comparisons_alternatives": 3.875,
+        "null_failure_preservation": 4.0,
+        "agency_labor": 4.0,
+        "voice_stance": 3.9375,
+        "precision_accessibility": 3.9375,
+        "provenance_integrity": 3.9375,
+        "compliance_actionability": 3.875
+      }
+    }
+  },
+  "codex_minus_claude_points": 3.3125,
+  "comparative_claim": "HIGHER_ON_FROZEN_BENCHMARK",
+  "single_judge_hard_failure_flags": 0,
+  "judge_mean_absolute_dimension_difference_0_4": 0.0903,
+  "limits": [
+    "eight synthetic cases",
+    "one generator run per condition",
+    "two model-assisted judges",
+    "no inference about universal quality, conference acceptance, scientific truth, or AI authorship"
+  ]
+}
