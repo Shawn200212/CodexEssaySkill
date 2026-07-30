@@ -83,7 +83,7 @@ practical margin with no additional hard failures. The valid statement is delibe
 claim about all papers, all models, scientific truth, or acceptance. Full aggregate results are in
 the [benchmark report](reports/benchmark.md) and [visual gallery](gallery/benchmark.html).
 
-![Publication-Craft-12 v3 aggregate scores](docs/media/benchmark-overview.svg)
+![Publication-Craft-12 v3 aggregate scores](docs/media/benchmark-overview.png)
 
 ## What is published here
 

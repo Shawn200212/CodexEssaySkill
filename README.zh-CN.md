@@ -78,7 +78,7 @@ CodexEssaySkill 领先 ClaudeEssaySkill **3.3125 分**，超过预先规定的 2
 Publication-Craft-12 v3 基准上得分更高。** 这不是对所有论文、所有模型、科学真值或录用率的
 普遍声明。聚合结果见[基准报告](reports/benchmark.md)和[可视化页面](gallery/benchmark.html)。
 
-![Publication-Craft-12 v3 聚合得分](docs/media/benchmark-overview.svg)
+![Publication-Craft-12 v3 聚合得分](docs/media/benchmark-overview.png)
 
 ## 公开内容
 
