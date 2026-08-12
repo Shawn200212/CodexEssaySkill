@@ -11,6 +11,16 @@ public repository contains the method, frozen rubric, aggregate measurements, sy
 and visualizations—never the private skill source, hidden issue manifests, raw candidate answers, or
 unpublished user manuscripts.
 
+## Current CHI source snapshot
+
+The private core now also carries a current, CHI-focused chi-paper source snapshot dated
+2026-08-13. Its source SHA-256 is
+2F40D48F1F05D23D20B5714485595D4719EA5856913AF541D143D68418CA9063. Five tool tests passed at
+synchronization; a six-case routing and safety smoke test produced its six expected outcomes.
+Neither result is a generalization, manuscript-quality, or publication-outcome claim, and this
+snapshot does not replace or alter the frozen CodexEssaySkill 1.2.0 benchmark. See the
+[current source snapshot record](docs/current-chi-paper-snapshot.md) for boundaries and provenance.
+
 ## Why this successor exists
 
 `CodexEssaySkill` began from an audit of
