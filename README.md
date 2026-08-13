@@ -11,6 +11,10 @@ public repository contains the method, frozen rubric, aggregate measurements, sy
 and visualizations—never the private skill source, hidden issue manifests, raw candidate answers, or
 unpublished user manuscripts.
 
+> **Current scope.** The active Skill is now the evidence/provenance and revision-control layer,
+> not an end-to-end prose writer. See [current scope](docs/current-scope.md). Historical results
+> below are retained as an auditable record, not a claim about the active version's writing quality.
+
 ## Current CHI source snapshot
 
 The private core now also carries a current, CHI-focused chi-paper source snapshot dated
