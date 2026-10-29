@@ -1,6 +1,10 @@
-# CodexEssaySkill——证据约束的会议论文写作 Skill
+[English](README.md) | [简体中文](README.zh-CN.md)
 
-[English](README.md) | **中文**
+<a id="codexessayskill--evidence-constrained-conference-paper-writing--codexessayskill证据约束的会议论文写作-skill"></a>
+<a id="codexessayskill--evidence-constrained-conference-paper-writing"></a>
+<a id="codexessayskill证据约束的会议论文写作-skill"></a>
+
+# CodexEssaySkill——证据约束的会议论文写作 Skill
 
 > 一个采用“私有核心 + 公开演示”结构的 Codex 论文写作 Skill。它先诊断研究架构，再修改
 > 文本；先守住证据、方法范式与作者立场，再追求流畅；被要求改写时，首先交付可直接放入
@@ -13,6 +17,22 @@
 > **当前边界。** 活跃 Skill 已调整为证据/溯源与修订控制层，不再承担端到端论文文本撰写。
 > 见[当前边界](docs/current-scope.zh-CN.md)。下方历史结果仅保留为可审计记录，不能证明当前版本的写作质量。
 
+<a id="current-chi-source-snapshot--当前-chi-源码快照"></a>
+<a id="current-chi-source-snapshot"></a>
+<a id="当前-chi-源码快照"></a>
+
+## 当前 CHI 源码快照
+
+私有核心仓库现另行保存一个日期为 2026-08-13 的当前 CHI 定向 chi-paper 源码快照，其
+SHA-256 为 2F40D48F1F05D23D20B5714485595D4719EA5856913AF541D143D68418CA9063。本次同步时，
+五项工具测试均通过；一次六案例的路由与安全冒烟测试也获得六项预期结果。这些结果不是泛化、
+论文质量或发表结果主张；该快照不会替代或改变已经冻结的 CodexEssaySkill 1.2.0 基准。
+边界与来源见[当前源码快照记录](docs/current-chi-paper-snapshot.md)。
+
+<a id="why-this-successor-exists--为什么要做这个后继版本"></a>
+<a id="why-this-successor-exists"></a>
+<a id="为什么要做这个后继版本"></a>
+
 ## 为什么要做这个后继版本
 
 本项目首先审计了 [`ClaudeEssaySkill`](https://github.com/Shawn200212/ClaudeEssaySkill) 及其经
@@ -24,6 +44,10 @@
 一段流畅文字不能证明论文有真正的发布主张，也不能证明因变量、分析单位、分母和推断强度
 一致，更不能证明质性或设计研究没有被强行改写成实验论文。因此，新 Skill 使用 12 个发布级
 维度与 13 个完整性硬门槛。
+
+<a id="what-the-skill-does-differently--核心能力"></a>
+<a id="what-the-skill-does-differently"></a>
+<a id="核心能力"></a>
 
 ## 核心能力
 
@@ -39,6 +63,10 @@
 
 完整结构见[架构说明](docs/architecture.md)，公开量表见
 [Publication-Craft-12](data/rubric.json)。
+
+<a id="the-training-is-gan-shaped-not-neural-fine-tuning--gans-训练到底是什么"></a>
+<a id="the-training-is-gan-shaped-not-neural-fine-tuning"></a>
+<a id="gans-训练到底是什么"></a>
 
 ## “GaNS 训练”到底是什么
 
@@ -65,6 +93,10 @@ flowchart LR
 v1.1 加入“先交付论文文本”、证据骨架完整覆盖和 publication-craft 规则，再用全新题集做
 冻结后验证。
 
+<a id="final-frozen-comparison--最终冻结比较"></a>
+<a id="final-frozen-comparison"></a>
+<a id="最终冻结比较"></a>
+
 ## 最终冻结比较
 
 Publication-Craft-12 v3 在 `CodexEssaySkill 1.2.0` 冻结后独立编写。8 个新案例产生 24 个回答，
@@ -83,6 +115,10 @@ Publication-Craft-12 v3 基准上得分更高。** 这不是对所有论文、�
 
 ![Publication-Craft-12 v3 聚合得分](docs/media/benchmark-overview.png)
 
+<a id="what-is-published-here--公开内容"></a>
+<a id="what-is-published-here"></a>
+<a id="公开内容"></a>
+
 ## 公开内容
 
 | 路径 | 内容 |
@@ -96,11 +132,19 @@ Publication-Craft-12 v3 基准上得分更高。** 这不是对所有论文、�
 | [`reports/`](reports/) | 聚合报告与独立合成的前后对照示例 |
 | [`gallery/`](gallery/) | 自包含可视化页面 |
 
+<a id="access--获取私有核心"></a>
+<a id="access"></a>
+<a id="获取私有核心"></a>
+
 ## 获取私有核心
 
 安装用 Skill、参考文件、脚本、论文派生案例、隐藏清单、原始回答、评审记录和候选映射均在
 私有 core 仓库。可在本仓库提交 issue，说明研究写作用途后申请访问。“公开可阅读但禁止
 克隆”并不是 GitHub 支持的仓库模式，因此这里采用公开演示与私有核心分离。
+
+<a id="honest-limits--诚实边界"></a>
+<a id="honest-limits"></a>
+<a id="诚实边界"></a>
 
 ## 诚实边界
 
@@ -110,15 +154,11 @@ Publication-Craft-12 v3 基准上得分更高。** 这不是对所有论文、�
 - 文本审计不检测作者身份，也不输出“AI 写作占比”。可观察的风格指标只能定位待复核段落。
 - 缺失证据不会被文风修复；Skill 会返回收窄后的文本、可见占位符或 `EVIDENCE BLOCKED`。
 
+<a id="license--许可"></a>
+<a id="license"></a>
+<a id="许可"></a>
+
 ## 许可
 
 私有源码与 Skill 内容保留全部权利，仅限获邀访问。`data/` 中的聚合测量和公开量表采用
 [CC BY 4.0](LICENSE-DATA)。
-
-## 当前 CHI 源码快照
-
-私有核心仓库现另行保存一个日期为 2026-08-13 的当前 CHI 定向 chi-paper 源码快照，其
-SHA-256 为 2F40D48F1F05D23D20B5714485595D4719EA5856913AF541D143D68418CA9063。本次同步时，
-五项工具测试均通过；一次六案例的路由与安全冒烟测试也获得六项预期结果。这些结果不是泛化、
-论文质量或发表结果主张；该快照不会替代或改变已经冻结的 CodexEssaySkill 1.2.0 基准。
-边界与来源见[当前源码快照记录](docs/current-chi-paper-snapshot.md)。
